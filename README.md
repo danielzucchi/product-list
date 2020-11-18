@@ -1,10 +1,16 @@
+## Product list layour
+
+Built in React, using hooks, `styled-components`, linting with `eslint` using Airbnb standard. Code styling using `prettier`.
+
 ## Install
 
-Checkout project with command line `git checkout git@github.com:danielzucchi/product-list.git`.
+Checkout project with command line:
+
+### `git checkout git@github.com:danielzucchi/product-list.git`.
 
 Install project using:
 
-#### yarn
+### `yarn`
 
 ## To run
 
