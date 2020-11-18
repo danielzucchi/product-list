@@ -1,4 +1,4 @@
-## Product list layour
+## Product list layout
 
 Built in React, using hooks, `styled-components`, linting with `eslint` using Airbnb standard. Code styling using `prettier`.
 
