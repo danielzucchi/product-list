@@ -6,22 +6,6 @@
     "prettier"
   ],
   "plugins": ["react", "prettier"],
-  "rules": {
-    "failOnError": 0,
-    "react/jsx-props-no-spreading": [
-      "error",
-      {
-        "exceptions": ["Component"]
-      }
-    ],
-    "import/no-cycle": [
-      "error",
-      {
-        "maxDepth": 2
-      }
-    ],
-    "import/no-named-as-default-member": 0
-  },
   "env": {
     "browser": true,
     "node": true
