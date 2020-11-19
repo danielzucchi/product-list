@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar tests when all props are present matches snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    Products
+  </styled.div>
+  <styled.button
+    onClick={[Function]}
+    type="button"
+  />
+</styled.div>
+`;
+
+exports[`AppBar tests when liked products, show liked products dorpdown 1`] = `
+<styled.div>
+  <styled.div>
+    Products
+  </styled.div>
+  <styled.button
+    onClick={[Function]}
+    type="button"
+  />
+  <styled.div>
+    <li
+      key="Product one"
+      style={
+        Object {
+          "listStyle": "none",
+        }
+      }
+    >
+      <styled.p>
+        Product one
+      </styled.p>
+    </li>
+    <li
+      key="Product two"
+      style={
+        Object {
+          "listStyle": "none",
+        }
+      }
+    >
+      <styled.p>
+        Product two
+      </styled.p>
+    </li>
+  </styled.div>
+</styled.div>
+`;

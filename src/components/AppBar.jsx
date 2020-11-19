@@ -73,7 +73,7 @@ const AppBar = ({ likedProducts }) => {
         <LikedList>
           {likedProducts.length > 0 ? (
             likedProducts.map((product) => (
-              <li style={{ listStyle: 'none' }}>
+              <li style={{ listStyle: 'none' }} key={product}>
                 <LikedListLabel>{product}</LikedListLabel>
               </li>
             ))
@@ -87,7 +87,11 @@ const AppBar = ({ likedProducts }) => {
 }
 
 AppBar.propTypes = {
-  likedProducts: PropTypes.arrayOf(PropTypes.string).isRequired,
+  likedProducts: PropTypes.arrayOf(PropTypes.string),
+}
+
+AppBar.defaultProps = {
+  likedProducts: [],
 }
 
 export default AppBar

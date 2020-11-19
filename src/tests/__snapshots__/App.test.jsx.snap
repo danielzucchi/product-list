@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App wrapper test renders without crashing 1`] = `
+<styled.div>
+  <AppInner
+    error={null}
+    isLoading={false}
+    products={null}
+  />
+</styled.div>
+`;

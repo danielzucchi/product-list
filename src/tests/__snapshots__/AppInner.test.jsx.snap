@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppInner tests when all props are presentmatches snapshot 1`] = `
+<Fragment>
+  <AppBar
+    likedProducts={Array []}
+  />
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        Results
+      </styled.div>
+      <styled.button
+        hideSold={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Hide sold items
+      </styled.button>
+    </styled.div>
+    <ProductTileList
+      hideSold={false}
+      likedProducts={Array []}
+      products={
+        Array [
+          Object {
+            "brand": "Fantastic Concrete Computer",
+            "date": "2020-11-11T03:23:31.984Z",
+            "description": "You can't copy the capacitor without generating the digital SAS hard drive!",
+            "id": "1",
+            "img": "https://s3.amazonaws.com/uifaces/faces/twitter/a_harris88/128.jpg",
+            "name": "Rowena Jerde",
+            "price": "51.00",
+            "seller": "Frederic",
+            "sold": false,
+          },
+          Object {
+            "brand": "Handcrafted Metal Car",
+            "date": "2020-11-11T03:25:47.608Z",
+            "description": "I'll override the open-source HTTP protocol, that should interface the COM program!",
+            "id": "2",
+            "img": "https://s3.amazonaws.com/uifaces/faces/twitter/uxalex/128.jpg",
+            "name": "Walter Nicolas",
+            "price": "348.00",
+            "seller": "Lonnie",
+            "sold": true,
+          },
+          Object {
+            "brand": "Unbranded Frozen Pizza",
+            "date": "2020-11-11T08:07:26.985Z",
+            "description": "Try to synthesize the PNG monitor, maybe it will parse the primary pixel!",
+            "id": "3",
+            "img": "https://s3.amazonaws.com/uifaces/faces/twitter/juangomezw/128.jpg",
+            "name": "Justina Heaney",
+            "price": "461.00",
+            "seller": "Calista",
+            "sold": false,
+          },
+          Object {
+            "brand": "Handcrafted Rubber Chair",
+            "date": "2020-11-10T17:50:08.753Z",
+            "description": "overriding the transmitter won't do anything, we need to back up the primary HTTP driver!",
+            "id": "4",
+            "img": "https://s3.amazonaws.com/uifaces/faces/twitter/operatino/128.jpg",
+            "name": "Mrs. Elizabeth Tremblay",
+            "price": "71.00",
+            "seller": "Kirk",
+            "sold": false,
+          },
+        ]
+      }
+      toggleLiked={[Function]}
+    />
+  </styled.div>
+</Fragment>
+`;

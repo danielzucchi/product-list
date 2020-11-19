@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTile tests when all props are present matches snapshot 1`] = `
+<styled.div>
+  <styled.div
+    sold={false}
+  >
+    <styled.button
+      isLiked={false}
+      onClick={[Function]}
+      type="button"
+    />
+    <styled.img
+      alt="Product one"
+      onError={[Function]}
+      src="img"
+    />
+  </styled.div>
+  <styled.p>
+    sampleBrand
+  </styled.p>
+  <styled.p>
+    Product one
+  </styled.p>
+  <styled.p>
+    £15
+  </styled.p>
+</styled.div>
+`;

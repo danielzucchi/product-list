@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProducTileList test when all props are presentmatches snapshot 1`] = `
+<styled.div>
+  <li
+    key="1"
+    style={
+      Object {
+        "listStyle": "none",
+      }
+    }
+  >
+    <ProductTile
+      brand="Fantastic Concrete Computer"
+      id="1"
+      img="https://s3.amazonaws.com/uifaces/faces/twitter/a_harris88/128.jpg"
+      isLiked={false}
+      name="Rowena Jerde"
+      price="51.00"
+      sold={false}
+      toggleLiked={[Function]}
+    />
+  </li>
+  <li
+    key="2"
+    style={
+      Object {
+        "listStyle": "none",
+      }
+    }
+  >
+    <ProductTile
+      brand="Handcrafted Metal Car"
+      id="2"
+      img="https://s3.amazonaws.com/uifaces/faces/twitter/uxalex/128.jpg"
+      isLiked={true}
+      name="Walter Nicolas"
+      price="348.00"
+      sold={true}
+      toggleLiked={[Function]}
+    />
+  </li>
+  <li
+    key="3"
+    style={
+      Object {
+        "listStyle": "none",
+      }
+    }
+  >
+    <ProductTile
+      brand="Unbranded Frozen Pizza"
+      id="3"
+      img="https://s3.amazonaws.com/uifaces/faces/twitter/juangomezw/128.jpg"
+      isLiked={true}
+      name="Justina Heaney"
+      price="461.00"
+      sold={false}
+      toggleLiked={[Function]}
+    />
+  </li>
+  <li
+    key="4"
+    style={
+      Object {
+        "listStyle": "none",
+      }
+    }
+  >
+    <ProductTile
+      brand="Handcrafted Rubber Chair"
+      id="4"
+      img="https://s3.amazonaws.com/uifaces/faces/twitter/operatino/128.jpg"
+      isLiked={false}
+      name="Mrs. Elizabeth Tremblay"
+      price="71.00"
+      sold={false}
+      toggleLiked={[Function]}
+    />
+  </li>
+</styled.div>
+`;
