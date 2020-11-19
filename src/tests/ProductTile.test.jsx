@@ -18,4 +18,26 @@ describe('ProductTile tests', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('when product is sold, shows sold label', () => {
+    const wrapper = shallow(
+      <ProductTile
+        id="1"
+        name="Product one"
+        img="img"
+        sold
+        price="15"
+        brand="sampleBrand"
+        isLiked={false}
+        toggleLiked={() => jest.fn()}
+      />,
+    )
+
+    const soldLabel = wrapper.findWhere(
+      (node) => node.name() === 'styled.p' && node.text() === 'Sold',
+    )
+
+    expect(soldLabel).toHaveLength(1)
+    expect(wrapper).toMatchSnapshot()
+  })
 })

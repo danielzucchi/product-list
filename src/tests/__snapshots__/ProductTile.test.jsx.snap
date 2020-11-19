@@ -27,3 +27,34 @@ exports[`ProductTile tests when all props are present matches snapshot 1`] = `
   </styled.p>
 </styled.div>
 `;
+
+exports[`ProductTile tests when product is sold, shows sold label 1`] = `
+<styled.div>
+  <styled.div
+    sold={true}
+  >
+    <styled.button
+      isLiked={false}
+      onClick={[Function]}
+      type="button"
+    />
+    <styled.p>
+      Sold
+    </styled.p>
+    <styled.img
+      alt="Product one"
+      onError={[Function]}
+      src="img"
+    />
+  </styled.div>
+  <styled.p>
+    sampleBrand
+  </styled.p>
+  <styled.p>
+    Product one
+  </styled.p>
+  <styled.p>
+    £15
+  </styled.p>
+</styled.div>
+`;
